@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => {
   const isBuild = command === 'build'
 
   return {
-    base: isBuild ? '/REPONAME/' : '/',
+    base: isBuild ? '/vue3-list-example/' : '/',
     plugins: [vue()],
     resolve: {
       alias: {
